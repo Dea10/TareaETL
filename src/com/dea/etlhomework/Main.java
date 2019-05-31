@@ -5,8 +5,14 @@ public class Main {
 	public static void main(String[] args) {
 		
 		ETL etl = new ETL();
-		etl.ETLActors();
-
+		
+		etl.ETLActor();
+		etl.ETLStore();
+		etl.ETLCategory();
+		etl.ETLFilm();
+		etl.ETLPayment();
+		
+		System.out.println("ETL finished!");
 	}
 
 }
