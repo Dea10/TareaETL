@@ -6,10 +6,11 @@ public class Main {
 		
 		ETL etl = new ETL();
 		
-		etl.ETLActor();
-		etl.ETLStore();
-		etl.ETLCategory();
-		etl.ETLFilm();
+		//etl.ETLActor();
+		//etl.ETLStore();
+		//etl.ETLCategory();
+		//etl.ETLFilm();
+		//etl.ETLDate();
 		etl.ETLPayment();
 		
 		System.out.println("ETL finished!");
