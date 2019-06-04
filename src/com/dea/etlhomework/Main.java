@@ -11,7 +11,8 @@ public class Main {
 		//etl.ETLCategory();
 		//etl.ETLFilm();
 		//etl.ETLDate();
-		etl.ETLPayment();
+		//etl.ETLPayment();
+		etl.dataSetPayment();
 		
 		System.out.println("ETL finished!");
 	}
