@@ -1,0 +1,32 @@
+CREATE TABLE IF NOT EXISTS actor
+(
+actor_id INT NOT NULL PRIMARY KEY,
+name TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS category
+(
+category_id INT NOT NULL PRIMARY KEY,
+name TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS film
+(
+film_id INT NOT NULL PRIMARY KEY,
+title TEXT NOT NULL 
+);
+
+CREATE TABLE IF NOT EXISTS payment_dataset
+(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+payment_id INT NOT NULL,
+film_title TEXT NOT NULL,
+store INT NOT NULL,
+category TEXT NOT NULL,
+actor TEXT NOT NULL,
+amount DECIMAL(5,2),
+payment_date TEXT NOT NULL,
+day INT NOT NULL,
+month INT NOT NULL,
+year INT NOT NULL
+);
